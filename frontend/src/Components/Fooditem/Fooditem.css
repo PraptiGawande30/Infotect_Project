@@ -1,0 +1,71 @@
+.food-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.food-item:hover {
+  transform: scale(1.03);
+}
+
+.food-item-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.food-item-info {
+  padding: 15px;
+}
+
+.food-item-name-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.food-item-desc {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.food-item-price {
+  font-size: 15px;
+  font-weight: bold;
+  color: tomato;
+}
+.add {
+  width: 35px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.food-item-counter {
+    position: absolute;
+    bottom: 15px;
+    right:15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:6px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.food-item-counter img {
+  width: 20px;       /* or 16px if you want smaller icons */
+  height: 20px;
+  cursor: pointer;
+}
+
+.food-item-counter p {
+  margin: 0;
+  font-size: 16px;
+}
+
